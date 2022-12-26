@@ -21,6 +21,8 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/afficher_cacher.js"></script>
+
   </head>
 
   <body>
@@ -85,15 +87,18 @@
             <br>
             <h4 class="aboutMe">À PROPOS DE MOI</h4>
             <p class="text_apropos">
-              Salut!  Je suis Brice Rodson BOKATOLA EBANGA, Créative developer💻 web designer  Junior. <br>
-              ici nous allons parlé que de mes competence entant que designer <br>
-            Qu'est-ce que je fais 🤔? <br>
-            <br>
-             je vais vous dire ça 🙂 <br>
-             <br>
-             Je pars de la pensée d'un projet aux dessins sur papiers 🗒🖌, du dessin sur papier aux maquettages ainsi qu’aux prototypages. Pour les vidéos, je pars de la penser aux storyboards, du storyboard aux montages.
-              S'agissant pour tout ce qui est logo ou illustration comme flyers, je pars de la penser à un ou plusieurs dessins sur papier Mais aussi en faisant une veille sur les nouveautés dans le milieu du design. <br> Amoureux du code, du référencement naturel 'SEO' des sites 🤞.
-            </p>
+             <p>Mes salutations, Je suis Brice Rodson BOKATOLA EBANGA, Créative developer💻 web designer  Junior. <br>
+              Ici. Je vais vous parler que de mes compétences en tant que designer <br></p>
+              <div id="texte" class="texte">        
+                Qu'est-ce que je fais 🤔? <br>
+                <br>
+                 je vais vous dire ça 🙂 <br>
+                 <br>
+                 Je pars de la pensée d'un projet aux dessins sur papiers 🗒🖌, du dessin sur papier aux maquettages ainsi qu’aux prototypages. Pour les vidéos, je pars de la penser aux storyboards, du storyboard aux montages.
+                  S'agissant pour tout ce qui est logo ou illustration comme flyers, je pars de la penser à un ou plusieurs dessins sur papier Mais aussi en faisant une veille sur les nouveautés dans le milieu du design. <br> Amoureux du code, du référencement naturel 'SEO' des sites 🤞.
+                </div>
+                <span class="bouton" id="bouton_texte" onclick="javascript:afficher_cacher('texte');">Lire plus</span>
+
 
           </div>
         </div>
@@ -135,7 +140,7 @@
     <!-- ---------------------------------------------------------------  -->
     <br>
     <section id="team">
-      <div class="cardr bertha">
+      <div class="cardr willy">
           <figure class="overfl">
               <img src="img/music.png" alt="card">
           </figure>
@@ -153,7 +158,7 @@
 </section>
 
 <section id="team">
-  <div class="cardr bertha">
+  <div class="cardr willy">
       <figure class="overfl">
           <img src="img/gen.jpg" alt="card" width="600px" height="200px">
       </figure>
@@ -173,7 +178,7 @@
 </section>
 
 <!-- <section id="team">
-  <div class="cardr bertha">
+  <div class="cardr willy">
       <figure class="overfl">
           <img src="img/music.png" alt="card">
       </figure>

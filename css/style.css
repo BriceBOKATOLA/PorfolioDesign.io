@@ -10,9 +10,21 @@ h1, h2, h3, h4 {
 .aboutMe{
   color: white;
 }
+.bouton
+{
+    color: #adc9f1;
+    font-size: 24px;
+    cursor: pointer;
+}
+.bouton:hover
+{
+    text-decoration: underline;
+}
+
+
 p{
   font-size: 14px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .competences{
   font-family: 'Reggae One';
@@ -52,6 +64,7 @@ span{
   opacity: 0.3;
 }
 #team .cardr {
+  padding: 2px;
   width: 300px;
   min-height: 60vh;
 }
@@ -103,7 +116,7 @@ span{
 }
 
 .titleMessage .heading .main {
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Reggae One';
 
 }
